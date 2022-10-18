@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Responsive Redesign</title>
+ 
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" /> 
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: rgb(254, 254, 254); " >
+      <a class="navbar-brand" href="#" style="color: #2d2d2d">&#127807 &#127797 &#127793</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" style="color: #2d2d2d" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" style="color: #2d2d2d" href="#PartOne">Part One <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" style="color: #2d2d2d" href="#PartTwo">Part Two <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" style="color: #2d2d2d" href="#PartThree">Part Three <span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="header">
+      RESPONSIVE REDESIGN
+    </div>
+
+    <div class="text-intro">
+      <p >
+        The goal of this assignment is was to practice the workflow of redesigning a simple website while
+        learning the skills necessary to analyze and identify flaws in an existing interface, 
+        create low-fidelity and high-fidelity prototypes for various screen sizes, and build a 
+        responsive website based on those prototypes.
+
+      </p>
+    </div>
+
+    <div class="sub-header">
+      <a id="PartOne">Part 1: Identifying Usability Problems</a>
+
+    </div>
+
+    <div class="box">
+      <p class="section-header">
+        <u>Picking a Website</u>
+      </p> 
+      <div class="display-image">
+        <img class="desktop-image" src="assets/Screenshot1.PNG" alt="Screenshot of the landing page for toronto cupcake">
+        <img class="desktop-image" src="assets/Screenshot2.PNG" alt="Screenshot of what the side bar looks like">
+    
+      </div>
+     
+      <ul class="list">
+        <li>
+          This website for Toronto Cupcake was chosen because it does not necessarily 
+          have the best layout for users to easily navigate and 
+          overall seems a bit outdated
+
+        </li>
+        <li>
+          Here is the link to their website 
+          <a href="https://torontocupcake.com/index.html"> <u>Toronto Cupcake</u></a>
+        </li>
+      </ul>
+      
+    </div>
+
+    <div class="box-grey-border">
+      <p class="section-header">
+        <u>Finding Problems</u>
+      </p>
+        <table class="table table-bordered">
+          <thead  style="border: 1px solid black">
+            <tr>
+            
+              <th scope="col">Criteria</th>
+              <th scope="col">Observations</th>
+              
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Usability</th>
+              <td>
+                <ul class="list">
+                  <li>
+                    This websites design does not lend itself to being very 
+                    user friendly especially if they are first time users
+                    because it heavily relies on users having pre-existing 
+                    knowledge of what certain icons do and the users intuitively 
+                    having the desire to explore the page and scroll through the website
+                  </li>
+                  <li>
+                    In addition, the location of the hamburger icon is in an awkward place and quite small.
+                  </li>
+                  <li>
+                    The side bar that pops up also provides many 
+                    options of which can overwhelm the user and 
+                    confuse them as they are not very descriptive
+                  </li>
+                  <li>
+                    The text on the website is also repetitive and 
+                    has typos which is not the greatest for readability 
+                  </li>
+                  <li>
+                    The interaction with the sidebar is poorly structured
+                    because it some options have dropdowns that cover other options
+                    on the side bar.
+
+                  </li>
+
+                </ul>
+              </td>
+              
+             
+            </tr>
+            <tr>
+              <th scope="row">Learnability</th>
+              <td>
+                <ul class="list">
+                  <li>
+                    First Time users: It might be hard for them to figure out where 
+                    the different tabs are located. This is because users need to scroll all the 
+                    way down to see the different links to different pages or intuitively 
+                    know that the hamburger icon means that a sidebar will pop up and have 
+                    the different options
+                  </li>
+                  <li>
+                    Once people visit the site more often, they will be able to easily 
+                    figure out where to click to find the different options that the website offers
+
+                  </li>
+                  <li>
+                    Even if the users are very proficient 
+                    with the current website, it is not very efficient, there are 
+                    2 clicks to get to the options or they need to scroll down 
+                    to the bottom of the page in order to find the tabs. 
+                  </li>
+                </ul>
+              </td>    
+            </tr>
+            <tr>
+              <th scope="row">Memorability</th>
+              <td >
+                <ul class="list">
+                  <li>
+                    The memorability of this website is not very good because  
+                    the hamburger icon is small and in an awkward place.
+                  </li>
+                  <li>
+                    Because the website landing page does not exactly 
+                    fit the viewport height, users need to remember that 
+                    options are at the bottom of the page and need to scroll in order to see them.
+                    (The screenshots are zoomed out in order to capture the whole website)
+                  </li>
+                </ul>
+              </td>
+             
+            </tr>
+            <tr>
+              <th scope="row">Conceptual Model</th>
+              <td>
+                <ul class="list">
+                  <li>
+                    The conceptual model for this website is that the 
+                    hamburger icon implies to the user that it is clickable 
+                    and that there are more options.
+
+                  </li>
+                  <li>
+                    The scroll bar on the side of the window indicates 
+                    that there is more to the page and that some of the text is cut off
+                  </li>
+                </ul>
+              </td>
+          
+            </tr>
+          </tbody>
+        </table>
+    </div>
+
+    <div class="box">
+      <p class="section-header">
+        <u>Accessibility</u>
+      </p>
+      <ul class="list">
+        <li>
+          Some of the warnings that were detected was 
+          that there are device specific interactions. 
+          For example they told users to click on a link and 
+          the link was repetitive which may cause confusion.
+        </li>
+        <li>
+          Another problem is that although some of the images have 
+          alternative descriptions, they are not very descriptive and 
+          not all the images have alternative descriptions
+        </li>
+      </ul>
+    </div>
+
+    <div class="sub-header">
+     <a id="PartTwo">Part 2: Visual Redesign</a> 
+
+    </div>
+
+    <div class="box">
+      <p class="section-header">
+        <u>Low-Fidelity Prototyping</u>
+      </p>
+      <ul class="list">
+        <li>
+          This low-fidelity prototype was created using Balsamique Wireframes
+        </li>
+      </ul>
+      <img class="image" src="assets/Desktop - 1.png" alt="image of mobile phone lofi prototype">
+      <img class="image" src="assets/Desktop - 2.png" alt="image of tablet lofi prototype">
+      <img class="image" src="assets/Desktop - 3.png" alt="image of desktop lofi prototype">
+    </div>
+
+    <div class="box-grey-border">
+      <p class="section-header">
+        <u>Style Guide</u>
+      </p>
+      <div class="style-guide">
+        <img src="assets/styleguide.png" alt="Image of the syle guide for the Toronto Cupcake website" height="70%" width="70%">
+      </div>
+    </div>
+
+    <div class="box">
+      <p class="section-header">
+        <u>High-Fidelity Prototyping</u>
+      </p>
+      <ul class="list">
+        <li>
+          This high-fidelity prototype was created with Figma
+        </li>
+      </ul>
+
+      <p class="section-header"> Mobile Prototype</p>
+      <div class="center-image">
+        <img class="image-prototype" src="assets/mobileAnnotated.png" alt="Annotated mobile prototype">
+        <img class="image-prototype" src="assets/MobilePrototype.png" alt = "mobile prototype">
+      </div>
+
+      <p class="section-header"> Tablet Prototype</p>
+      <div class="center-image">
+        <img class="image-prototype" src="assets/tabletAnnotated.png" alt="Annotated tablet prototype">
+        <img class="image-prototype" src="assets/TabletPrototype.png" alt = "Tablet prototype">
+      </div>
+  
+
+      <p class="section-header"> Desktop Prototype</p>
+      <div class="center-image">
+        <img class= "image-prototype-desktop" src="assets/desktopAnnotated.png" alt="Annotated desktop prototype">
+        <img class="image-prototype-desktop" src="assets/DesktopPrototype.png" alt = "Desktop prototype">
+      </div>
+    
+
+    </div>
+
+    <div class="sub-header">
+      <a id="PartThree">Part 3: Responsive Redesign</a>
+
+    </div>
+
+    <div>
+      <button type="button" class="btn btn-outline-success">
+        <a href="https://sadopossum246.github.io/TorontoCupcake/">Visit New Website</a>
+      </button>
+    </div>
+
+
+    <div class="sub-header">
+      Conclusion
+
+    </div>
+
+    <div class="box-last">
+      <ul class = "list">
+        <li>
+          This project helped me learn how the design and prototype process works, starting from an 
+          existing product and analyzing how it could be improved and then creating
+          different stages of prototypes 
+        </li>
+        <li>
+          I was also able to think about how to take designs and actually implement them in code form in 
+          order to make the designs a reality. While I was designing I had to keep in mind the 
+          people that I would be designing for and take into account accessibility.
+        </li>
+      </ul>
+    </div>
+
+
+   
+  </body>
+
+</html>
